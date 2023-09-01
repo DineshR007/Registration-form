@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+body{
+    background:url('./laptop.jpg');
+    background-size: cover;
+}
+.box1{
+    position: absolute;
+    top: 10%;
+    left: 36%;
+    padding:10px 50px 10px 50px;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 15px;
+}
+h1{
+    text-decoration: underline;
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+p{
+    font-size: 20px;
+    margin: 15px;
+}
+input{
+    color: black;
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+button{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: black;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+button:hover{
+    color:burlywood;
+}
